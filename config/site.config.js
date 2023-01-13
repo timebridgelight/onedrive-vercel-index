@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/icon.png',
+  icon: '/icons/48.ico',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -42,7 +42,9 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
+  protectedRoutes: [
+  //  '/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'
+    ],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
@@ -51,10 +53,10 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
-    {
-      name: 'MoGui Blog',
-      link: 'https://mogui.pro',
-    },
+ //   {
+ //     name: 'MoGui Blog',
+ //     link: 'https://mogui.pro',
+ //   },
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
